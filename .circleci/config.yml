@@ -31,7 +31,7 @@ jobs:
           name: Run tests
           command: npm test
       - run:
-          name: Netlify deploy
+          name: Netlify deploy...
           command: netlify:deploy
 
 workflows:
