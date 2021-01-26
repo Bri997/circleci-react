@@ -30,7 +30,9 @@ jobs:
       - run:
           name: Run tests
           command: npm test
-      - run: netlify:deploy
+      - run:
+          name: Netlify deploy
+          command: netlify:deploy
 
 workflows:
   # Below is the definition of your workflow.
